@@ -20,8 +20,8 @@ await page.locator("//button[normalize-space()='Confirm Code']").click()
 
 await page.context().storageState({ path: 'storageState.json' });
 
-//await page.locator("//span[@class='hl_text-overflow w-full hl_switcher-loc-name font-medium']").click();
-//await page.locator("//input[@placeholder='Search for a sub-account']").type("");
+await page.locator("//span[@class='hl_text-overflow w-full hl_switcher-loc-name font-medium']").click();
+await page.locator("//input[@placeholder='Search for a sub-account']").type("");
 
     
 
